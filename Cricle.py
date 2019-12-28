@@ -24,8 +24,8 @@ for alpha in range(0, 360):
     x = math.cos((alpha/360.)*2*pi)*500+100
     y = math.sin((alpha/360.)*2*pi)*500+100
     leinwand.create_line(x, y, x+1, y+1, fill="#ff0000")
-    print x
-    print y
+    print (x)
+    print (y)
 
 
 
