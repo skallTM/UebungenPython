@@ -13,7 +13,7 @@ hash = {}
 
 
 for x in range(0,24,1):
-    Rechenschieber.append(0)
+    Rechenschieber.append(1)
 
 for x in range(0,100000,1):
     Rechenschieber.insert(0, y)
@@ -47,3 +47,4 @@ for x in arrayzwei:
 print hash
 for key, anzahl in hash.items():
     print "%s comes %s." % (key, anzahl)
+print y
