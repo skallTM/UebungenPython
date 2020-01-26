@@ -1,5 +1,7 @@
 import threading
 import time
+import concurrent.futures
+
 primzahlen = []
 
 def primzahle(start,stop):
